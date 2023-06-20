@@ -67,4 +67,12 @@ nav h1 {
     max-width: 68.75rem;
     margin: auto;
   }
+
+  .hero img {
+    height:30rem;
+    width: 30rem;
+    border-radius: 25px;
+  }
+  
+
     
