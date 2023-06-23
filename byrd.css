@@ -14,17 +14,17 @@ body{
 
 
 nav{
-    color: white;
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.5rem 1rem;
-    background-color: #9966FF;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  background-color: #9966FF;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3.5rem;
+  background-color: var(--bg-color);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 .navigation{
@@ -49,20 +49,10 @@ nav h1 {
   nav ul {
     display: flex;
     gap: 1.9rem;
-    position: fixed;
-    background-color: var(--bg-color);
-    flex-direction: column;
-    top: 86px;
-    left: 10%;
-    width: 80%;
-    text-align: center;
-    transform: translateX(120%);
-    transition: transform 0.5s ease-in;
   }
   
   nav ul li {
     font-weight: var(--bold-font);
-    margin: 8px;
   }
 
   nav ul.show {
@@ -70,12 +60,12 @@ nav h1 {
   }
 
   burger-menu {
-    color: white;
-    font-size: 10rem;
+    color: var(--primary-color);
+    font-size: 2rem;
     border: 0;
     background-color: transparent;
     cursor: pointer;
-    display: block;
+    display: none;
   }
 
   .hero {
