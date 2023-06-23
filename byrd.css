@@ -85,6 +85,8 @@ nav h1 {
     gap: 2.5rem;
     max-width: 68.75rem;
     margin: auto;
+    
+    gap: 0;
   }
 
   .hero img {
@@ -96,7 +98,7 @@ nav h1 {
   .bio {
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 25rem;
+    width: 20.5rem;
     padding: 0.625rem;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
