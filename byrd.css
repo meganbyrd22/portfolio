@@ -48,10 +48,24 @@ nav h1 {
   nav ul {
     display: flex;
     gap: 1.9rem;
+    position: fixed;
+    background-color: var(--bg-color);
+    flex-direction: column;
+    top: 86px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    transform: translateX(120%);
+    transition: transform 0.5s ease-in;
   }
   
   nav ul li {
     font-weight: var(--bold-font);
+    margin: 8px;
+  }
+
+  nav ul.show {
+    transform: translateX(0);
   }
 
 .burger-menu {
@@ -60,7 +74,7 @@ nav h1 {
     border: 0;
     background-color: transparent;
     cursor: pointer;
-    display: none;
+    display: block;
   }
 
   .hero {
