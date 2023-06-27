@@ -59,7 +59,7 @@ nav h1 {
     transform: translateX(0);
   }
 
-  burger-menu {
+.burger-menu {
     color: var(--primary-color);
     font-size: 2rem;
     border: 0;
