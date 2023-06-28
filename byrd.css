@@ -233,7 +233,9 @@ nav h1 {
   }
 
   .skills {
-    max-width: 68.75rem;
+    background-color: #9580ff;
+    /*max-width: 68.75rem; */
+    width: 100%;
     margin: auto;
     text-align: center;
     margin-top: 2.5rem;
@@ -318,6 +320,7 @@ nav h1 {
   }
   
   .contact-form-container {
+    background-color: #9580ff;
     max-width: 40.75rem;
     margin: 0 auto;
     padding: 0.938rem;
