@@ -207,6 +207,7 @@ nav h1 {
     gap: 2.5rem;
     max-width: 68.75rem;
     margin: auto;
+    padding-top: 20px;
 
   }
 
@@ -238,7 +239,8 @@ nav h1 {
     width: 100%;
     margin: auto;
     text-align: center;
-    margin-top: 2.5rem;
+    /*margin-top: 2.5rem; */
+    margin-top: 20px;
   }
   
   .skill-header {
