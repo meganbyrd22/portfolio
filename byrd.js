@@ -42,10 +42,9 @@ function postToGoogle() {
       
     //add your google form generated numbers below which are also the 'names' of your inputs     
     data: {
-      "entry.517626622": field1,
-      "entry.935048337": field2,
-      "entry.1737955681": field3,
-      "entry.354351359": field4
+      "entry.876957242": field1,
+      "entry.1691157324": field2,
+      "entry.774524418": field3,
     },
     type: "POST",
     dataType: "xml",
