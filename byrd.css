@@ -373,6 +373,10 @@ nav h1 {
     color: var(--primary-color);
   }
 
+  fieldset{
+    border: 0;
+  }
+
   .submit-btn {
     width: 100%;
     padding: 10px;
