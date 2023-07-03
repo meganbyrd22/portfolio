@@ -318,6 +318,8 @@ nav h1 {
   
   .project-details {
     margin-bottom: var(--bottom-margin);
+    font-style: italic;
+    font-size: small;
   }
   
   .project-card {
