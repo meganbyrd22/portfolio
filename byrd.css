@@ -158,6 +158,8 @@ nav{
   padding: 1.5rem 3.5rem;
   background-color: var(--bg-color);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  background-image: url(https://media.licdn.com/dms/image/C4D16AQHhzb33TX5xjw/profile-displaybackgroundimage-shrink_350_1400/0/1637266368516?e=1694044800&v=beta&t=PKH2LUyzEn1K8uzEt17KOiWeyNsoYvcAN90SXi3_znE);
+  background-size: cover;
 }
 
 .navigation{
