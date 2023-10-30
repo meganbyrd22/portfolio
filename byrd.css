@@ -332,6 +332,12 @@ nav h1 {
     margin: 10px;
   }
 
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
   .contact {
     margin-top: 2rem;
   }
