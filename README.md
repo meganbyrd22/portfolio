@@ -6,6 +6,6 @@ My developer portfolio acts as a central location for my recent projects. You ca
 
 -Core skills: Javascript, HTML, CSS
 
-Live demo: https://www.linkedin.com/in/megan-k-byrd/
+Live demo: https://meganbyrd22.github.io/portfolio/
 
 (Completed May 2023)
