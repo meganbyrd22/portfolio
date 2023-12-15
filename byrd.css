@@ -38,10 +38,6 @@ html {
   box-sizing: border-box;
 }
 
-ul {
-  list-style-type: none;
-}
-
 a {
   text-decoration: none;
   color: var(--primary-color);
@@ -139,6 +135,8 @@ body {
     max-width: 17.75rem;
   }
 } 
+
+/*Main CSS */
 
 title{
     color: aqua;
@@ -250,6 +248,7 @@ nav h1 {
     padding: 0.4rem;
   }
 
+
   .skills {
     background-color: #9580ff;
     /*max-width: 68.75rem; */
@@ -280,6 +279,31 @@ nav h1 {
     box-shadow: 0 3px 10px var(--secondary-shadow);
     padding: 20px;
     margin: 10px;
+  }
+
+  .equivate {
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+  }
+
+  .equivate-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  .equivate-image {
+    width: 65%;
+    height: 50%;
+  }
+
+  .equivate h2 {
+    font: bold;
+  }
+
+  .equivate li {
+    list-style-type: circle;
   }
 
   .projects {
