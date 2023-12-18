@@ -283,27 +283,57 @@ nav h1 {
 
   .equivate {
     display: flex;
-    justify-content: center;
-    margin: 2px;
+    gap: 80px;
+  }
+
+  .cherry-title {
+    font-size: 30px;
   }
 
   .equivate-text {
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    width: 800px;
+    margin-top: 80px;
+    margin-left: 120px;
+    gap: 16px;
   }
 
   .equivate-image {
-    width: 65%;
-    height: 50%;
+    height: 600px;
+    width: 800px;
+    margin-right: 120px;
+    margin-top: 80px;
   }
 
   .equivate h2 {
-    font: bold;
+    font-weight: bold;
+    color: #9580ff;
+  }
+
+  .equivate-list {
+    gap: 24px;
   }
 
   .equivate li {
-    list-style-type: circle;
+    margin-left: 36px;
+    list-style-type: disc;
+    font-size: 14px;
+    line-height: 1.5;}
+
+  .tech-stack {
+    font-style: italic;
+    margin-bottom: 30px;
+  }
+
+  .MVP {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .github {
+    font-size: 20px;
+    font-weight: bold;
   }
 
   .projects {
