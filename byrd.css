@@ -240,7 +240,9 @@ nav h1 {
 
 
   .skills {
-    background-color: #9580ff;
+    display:flex;
+    gap: 100px;
+    background-color: white;
     /*max-width: 68.75rem; */
     width: 100%;
     margin: auto;
@@ -250,17 +252,36 @@ nav h1 {
   }
   
   .skill-header {
+    font-size: 45px;
+    color: #9580ff;
+    display: flex;
+    align-self: center;
     margin-bottom: 1rem;
-    padding: 10px;
+    margin-left: 250px;
   }
-  
+
+  .skills-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 70px;
+  }
+
   .skills-wrapper img {
     padding: 1.25rem;
   }
+
+  .first-set {
+    display: flex;
+  }
+
+  .second-set {
+    display: flex;
+  }
   
   .icon {
-    width: 11.875rem;
-    height: 11.25rem;
+    width: 175px;
+    height: 175px;
   }
 
   .icon-card {
@@ -271,9 +292,15 @@ nav h1 {
     margin: 10px;
   }
 
+  .section-divider1 {
+    margin:auto;
+    width: 75%;
+  }
+
   .equivate {
     display: flex;
     gap: 80px;
+    margin-bottom: 40px;
   }
 
   .cherry-title {
@@ -324,12 +351,23 @@ nav h1 {
   .github {
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 60px;
+  }
+
+  .section-divider2 {
+    margin: auto;
+    width: 75%;
   }
 
   .projects {
-    background-color: var(--bg-color);
+    background-color: white;
     padding: 32px 0;
     margin-top: 2rem;
+  }
+
+  .projects-title-subtitle {
+    display: flex;
+    flex-direction: column;
   }
   
   .project-pic {
@@ -341,11 +379,18 @@ nav h1 {
     display: flex;
     align-items: stretch;
     justify-content: center;
+    gap: 50px;
   }
 
   .projects-title {
     text-align: center;
     margin-bottom: 1rem;
+  }
+
+  .projects-subtitle {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 30px;
   }
   
   .project-container {
@@ -390,11 +435,17 @@ nav h1 {
     text-align: center;
     margin-bottom: var(--bottom-margin-2);
   }
-  
-  .contact-form-container {
+
+  .contact-container {
     background-color: #9580ff;
+    background-image: linear-gradient(to right, white, #9580ff);
+    height: 400px;
+  }
+  
+  .contact-form {
     max-width: 40.75rem;
     margin: 0 auto;
+    padding: 20px;
     padding: 0.938rem;
     border-radius: 5px;
     box-shadow: 0 3px 10px var(--secondary-shadow);
