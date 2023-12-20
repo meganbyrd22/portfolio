@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
 
 :root {
   --variable-name: value;
@@ -7,7 +8,7 @@ selector {
   property: var(--variable-name);
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
 
 /* Variables */
 :root {
@@ -103,6 +104,24 @@ body {
     height: 5.25rem;
   }
 
+  .equivate {
+    width: 20.875rem;
+    margin-top: -4rem;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .equivate img {
+    height: 23rem;
+    max-width: 23.75rem;
+    margin-right: -2px;
+  }
+
+  .equivate-text {
+    margin-top: -7rem;
+    width: 20.5rem;
+  }
+
   .projects-container {
     flex-direction: column;
   }
@@ -127,6 +146,19 @@ body {
     width: 18.3rem;
   }
 
+  .equivate {
+    width: 18.3rem;
+  }
+
+  .equivate img {
+    height: 37.5rem;
+    width: 23rem;
+  }
+
+  .equivate-text {
+    width: 18.3rem;
+  }
+
   .project-container {
     width: 17.875rem;
   }
@@ -137,11 +169,23 @@ body {
 } 
 
 /*Main CSS */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
 
 title{
     color: aqua;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: xx-large;
+}
+
+.body {
+  margin: 0;
 }
 
 
@@ -156,7 +200,6 @@ nav{
   padding: 1.5rem 3.5rem;
   background-color: var(--bg-color);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-  background-image: url(https://media.licdn.com/dms/image/C4D16AQHhzb33TX5xjw/profile-displaybackgroundimage-shrink_350_1400/0/1637266368516?e=1694044800&v=beta&t=PKH2LUyzEn1K8uzEt17KOiWeyNsoYvcAN90SXi3_znE);
   background-size: cover;
 }
 
@@ -185,6 +228,7 @@ nav h1 {
   
   nav ul li {
     font-weight: var(--bold-font);
+    list-style: none;
   }
 
   nav ul.show {
@@ -437,17 +481,23 @@ nav h1 {
   }
 
   .contact-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
     background-color: #9580ff;
-    background-image: linear-gradient(to right, white, #9580ff);
-    height: 400px;
+    background-image: linear-gradient(to left, white, #9580ff);
+    height: 450px;
   }
   
   .contact-form {
-    max-width: 40.75rem;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 400px;
     padding: 20px;
-    padding: 0.938rem;
+    gap: 10px;
     border-radius: 5px;
+    background: white;
     box-shadow: 0 3px 10px var(--secondary-shadow);
   }
 
@@ -462,11 +512,12 @@ nav h1 {
     font-size: 14px;
   }
   
-  .contact-form-container .input-field {
-    width: 100%;
+   .input-field {
+    width: 80%;
+    height: 60px;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 25px;
     border: none;
     border: 2px outset var(--primary-color);
     font-size: 0.875rem;
@@ -479,14 +530,21 @@ nav h1 {
   }
 
   fieldset{
+    display: flex;
+    flex-direction: column;
     border: 0;
+    gap: 4px;
+  }
+
+  .textarea {
+    height: 60px;
   }
 
   .submit-btn {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    background-color: #fff;
+    background-color: #9580ff;
     border: 2px solid var(--primary-color);
     border-radius: 5px;
     font-size: 1rem;
@@ -506,7 +564,7 @@ nav h1 {
   
 
   .copyright{
-    color: #fff;
+    color: black;
   }
 
   .socials {
@@ -522,12 +580,14 @@ nav h1 {
     height: 2rem;
   }
 
-  .scroll-up {
-    position: fixed;
-    right: 0.5%;
-    bottom: 3%;
-    cursor: pointer;
-  }
+ .scroll-up {
+   position: fixed;
+   right: 1%;
+   bottom: 1%;
+   cursor: pointer;
+   z-index: 999;
+   /* Ensure it's above other elements */
+ }
   
   .up-arrow {
     width: 3rem;
@@ -535,10 +595,11 @@ nav h1 {
   }
 
   footer {
-    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to left, white, #9580ff);
     padding: 1.25rem;
     text-align: center;
-    margin: 2rem 0 0;
   }
 
 

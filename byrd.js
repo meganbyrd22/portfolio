@@ -1,12 +1,17 @@
-// scroll to top functionality
-const scrollUp = document.querySelector("#scroll-up");
+document.addEventListener("DOMContentLoaded", function () {
+  // scroll to top functionality
+  const scrollUpButton = document.getElementById("scroll-up");
 
-scrollUp.addEventListener("click", () => {
-  window.scrollTo({
-    top: 0,
-    left: 0,
-    behavior: "smooth",
-  });
+  if (scrollUpButton) {
+    scrollUpButton.addEventListener("click", () => {
+      console.log("Scroll button clicked");
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+      });
+    });
+  }
 });
 
 // Nav hamburgerburger selections
