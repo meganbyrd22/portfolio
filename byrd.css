@@ -260,6 +260,8 @@ nav h1 {
   }
   
   .bio {
+    display: flex;
+    flex-direction: column;
     width: 35rem;
     padding: 0.625rem;
     border-radius: 6px;
@@ -279,6 +281,22 @@ nav h1 {
   .bio p {
     line-height: var(--line-height);
     padding: 0.3rem 0;
+  }
+
+  .bio-and-resume {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .resume-button {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: white;
+    padding: 20px;
   }
 
 
