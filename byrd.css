@@ -90,8 +90,8 @@ body {
   }
 
   .hero img {
-        height: 37.5rem;
-        width: 30rem;
+    height: 37.5rem;
+    width: 30rem;
     }
 
   .bio {
@@ -105,21 +105,19 @@ body {
   }
 
   .equivate {
-    width: 20.875rem;
     margin-top: -4rem;
     flex-direction: column;
     gap: 0;
   }
 
   .equivate img {
-    height: 23rem;
-    max-width: 23.75rem;
-    margin-right: -2px;
+    margin-top: -7rem;
+    width: 20.5rem;
   }
 
   .equivate-text {
-    margin-top: -7rem;
-    width: 20.5rem;
+    height: 37.5rem;
+    width: 30rem;
   }
 
   .projects-container {
@@ -147,20 +145,21 @@ body {
   }
 
   .equivate {
-    width: 18.3rem;
+    flex-direction: column;
   }
 
   .equivate img {
+    width: 18.3rem;
+  }
+
+  .equivate-text {
     height: 37.5rem;
     width: 23rem;
   }
 
-  .equivate-text {
-    width: 18.3rem;
-  }
-
   .project-container {
     width: 17.875rem;
+    margin-right: 12.5rem;
   }
 
   .contact-form-container {
@@ -343,7 +342,6 @@ nav h1 {
 
   .equivate {
     display: flex;
-    gap: 80px;
     margin-bottom: 40px;
   }
 
@@ -354,17 +352,17 @@ nav h1 {
   .equivate-text {
     display: flex;
     flex-direction: column;
-    width: 800px;
+    min-width: 700px;
     margin-top: 80px;
     margin-left: 120px;
     gap: 16px;
   }
 
   .equivate-image {
-    height: 600px;
-    width: 800px;
-    margin-right: 120px;
-    margin-top: 80px;
+    height: 37.5rem;
+    width: 50rem;
+    margin-right: 7.5rem;
+    margin-top: 5rem;
   }
 
   .equivate h2 {
